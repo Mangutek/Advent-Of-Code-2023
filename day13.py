@@ -20,7 +20,7 @@ def szukaj(matryca):
         y = x if x < len(matryca) - x else len(matryca) - x
         cz_1 = matryca[:x][::-1][:y]
         cz_2 = matryca[x:][:y]
-        if numpy.sum(cz_1 ^ cz_2) == 1:
+        if numpy.sum(cz_1 ^ cz_2) == 1: #part1 ==0, part2==1
             return x
 
 razem = 0
