@@ -1,3 +1,4 @@
+#tylko part1
 from matplotlib.path import Path
 import numpy
 
