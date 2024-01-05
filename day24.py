@@ -1,4 +1,4 @@
-
+#rozwiązuje tylko part1
 
 file = open("C:\\Users\\Admin\\Desktop\\CodingAdvent\\dane24.txt")
 tekst = file.readlines()
